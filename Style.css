@@ -72,28 +72,72 @@ object-fit: cover;
 
 #bottomPage1{
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     height: 40vh;
     width: 50vw;
-    background-color: gold;
-    left: 15%;
+    left: 8%;
 }
 
 #bottomPage1>h1{
     font-family: a;
-    font-size: 5vw;
-    font-weight: 100;
+    font-size: 6vw;
+    font-weight: lighter;
     color: #fff;
     line-height: 1;
 }
 
 #bottomPage1Inner{
+    display:flex;
+    width: 100%;
     position: absolute;
     font-family: a;
-    display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     bottom: 0;
-    background-color: firebrick ;
+    padding: 20px 0;
 }
 
+#bottomPage1Inner>button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #0A45E8;
+    font-weight: 400;
+    font-family: b;
+    font-size: 16px;
+}
+
+#bottomPage1Inner>h4{
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: white;
+}
+
+
+#page2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A45E8;
+    position: relative;
+    padding: 0 9vw;
+    color: white;
+}
+
+#page2>h2{
+    font-weight: lighter;
+    margin-bottom: 2.8vw
+}
+
+#page2>h1{
+    width: 90%;
+    font-size: 3.5vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+}
