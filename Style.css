@@ -52,13 +52,48 @@ object-fit: cover;
 
 #page1>nav>img{
     width: 12%;
+    margin-top: -1vw;
+}
+
+#rightNav{
+    margin-top: 3vw;
+    margin-right: 30px;
 }
 
 #rightNav>button{
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid white;
-    background-color: #0b48ed;
+    background-color: #0A45E8;
     color: white;
+    font-family: a;
+    font-size: 16px;
+}
+
+#bottomPage1{
+    position: absolute;
+    bottom: 5%;
+    height: 40vh;
+    width: 50vw;
+    background-color: gold;
+    left: 15%;
+}
+
+#bottomPage1>h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1;
+}
+
+#bottomPage1Inner{
+    position: absolute;
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: firebrick ;
 }
 
